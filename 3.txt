@@ -1,0 +1,137 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+ <meta charset="UTF-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ <title>UI Style Guide Example</title> 
+ <style> 
+ body { 
+ font-family: 'Arial', sans-serif; 
+ line-height: 1.6; 
+ background-color: #f5f5f5; 
+ color: #333; 
+ margin: 0; 
+ padding: 0; 
+ } 
+ /* Header Styles */ 
+ header { 
+ background-color: #3498db; 
+ color: #fff; 
+ padding: 10px; 
+ text-align: center; 
+ } 
+ /* Navigation Styles */ 
+ nav { 
+ background-color: #2c3e50; 
+ padding: 10px; 
+ text-align: center; 
+ } 
+ nav a { 
+ color: #fff;  
+ 
+ text-decoration: none; 
+ padding: 10px; 
+ margin: 0 10px; 
+ display: inline-block; 
+ } 
+ /* Main Content Styles */ 
+ .container { 
+ max-width: 800px; 
+ margin: 20px auto; 
+ padding: 20px; 
+ background-color: #fff; 
+ border-radius: 5px; 
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+ } 
+ h1, h2, h3 { 
+ color: #333; 
+ } 
+ p { 
+ margin-bottom: 20px; 
+ } 
+ /* Button Styles */ 
+ .btn { 
+ background-color: #e74c3c; 
+ color: #fff; 
+ padding: 10px 20px; 
+ text-decoration: none; 
+ border-radius: 3px; 
+ display: inline-block; 
+ transition: background-color 0.3s ease; 
+ } 
+ .btn:hover { 
+ 
+ 
+    background-color: #c0392b; 
+ } 
+ /* Form Styles */ 
+ form { 
+ margin-bottom: 20px; 
+ } 
+ label { 
+ display: block; 
+ margin-bottom: 8px; 
+ } 
+ input[type="text"], input[type="email"], input[type="password"] { 
+ width: 100%; 
+ padding: 10px; 
+ margin-bottom: 10px; 
+ border: 1px solid #ccc; 
+ border-radius: 3px; 
+ } 
+ input[type="submit"] { 
+ background-color: #2ecc71; 
+ color: #fff; 
+ padding: 10px 20px; 
+ border: none; 
+ border-radius: 3px; 
+ cursor: pointer; 
+ } 
+ input[type="submit"]:hover { 
+ background-color: #27ae60; 
+ } 
+ /* Footer Styles */ 
+ footer { 
+ background-color: #34495e; 
+ 
+ color: #fff; 
+ padding: 10px; 
+ text-align: center; 
+ position: fixed; 
+ bottom: 0; 
+ width: 100%; 
+ } 
+ </style> 
+</head> 
+<body> 
+ <header> 
+ <h1>UI Style Guide Example</h1> 
+</header> 
+<nav> 
+<a href="#">Home</a> 
+<a href="#">About</a> 
+<a href="#">Services</a> 
+<a href="#">Contact</a> 
+</nav> 
+<div class="container"> 
+<h2>Main Content Heading</h2> 
+<p>This is a simple example of a UI style guide. Feel free to customize and  
+expand it based on your project requirements.</p> 
+<a href="#" class="btn">Call to Action</a> 
+<form> 
+<label for="name">Name:</label> 
+<input type="text" id="name" name="name" required> 
+<label for="email">Email:</label> 
+<input type="email" id="email" name="email" required> 
+<label for="password">Password:</label> 
+<input type="password" id="password" name="password" required> 
+23 | Page 
+ 
+ <input type="submit" value="Submit"> 
+ </form> 
+ </div> 
+ <footer> 
+ <p>&copy; 2024 UI Style Guide Example. All rights reserved.</p> 
+ </footer> 
+</body> 
+</html>
